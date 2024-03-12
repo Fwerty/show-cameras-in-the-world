@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cameras in the world </title>
+    <!-- CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="site.css" asp-append-version="true" />
+   
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px; /* Kaydırma çubuğunun genişliği */
+            height: 10px; /* Kaydırma çubuğunun yüksekliği */
+            background-color: #7d7d7d; /* Kaydırma çubuğunun arka plan rengi */
+            border-radius: 5px; /* Kaydırma çubuğunun köşe yarıçapı */
+          }
+          
+          ::-webkit-scrollbar-thumb {
+            background-color: #767676; /* Kaydırma düğmesinin arka plan rengi */
+            border-radius: 5px; /* Kaydırma düğmesinin köşe yarıçapı */
+          }
+          
+          ::-webkit-scrollbar-track {
+            background-color: #2d2d2d; /* Kaydırma çubuğunun arka plan rengi */
+          }
+          
+        .navbar-nav .nav-link {
+            font-size: 23px; 
+        }
+
+        .navbar {
+            padding: 8px; 
+        }
+       
+        .card-img-top {
+            object-fit: cover;
+            max-width: 100%; /* Ensures image doesn't overflow */
+            max-height: 300px; /* Adjust height as needed */
+        }
+
+        .gradient-custom {
+            /* fallback for old browsers */
+            background: #6a11cb;
+            /* Chrome 10-25, Safari 5.1-6 */
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, rgb(178, 135, 224), #73a3f6);
+
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .container-fluid {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        
+        .vh-100 {
+            height: 129vh !important; /* Önceliği artırmak için !important kullanabilirsiniz */
+        }
+
+        .card {
+            margin: 0;
+           
+        }
+          
+          /* Card hover effect */
+        .card:hover {
+            transform: scale(1.02); /* Enlarge slightly on hover */
+            transition: transform 0.2s ease-in-out; /* Smooth transition */
+            cursor: pointer; /* Indicate clickable behavior using cursor style */
+            
+            /* Chrome 10-25, Safari 5.1-6 */
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, rgb(184, 215, 197), #5a48db);
+            
+        }
+    </style>
+</head>
+
+
+ <body class="gradient-custom" >
+    <header>
+
+    </header>
+    <div class="container" >
+        <main role="main" class="pb-3">
+
+            <br><br><br>
+
+            <!-- asdasdasdasdasdasadadfadlföadfödaifö -->
+
+            <style>
+                .flex-container {
+                    display: flex;
+                    justify-content: space-between; /* İki div arasında boşluk bırakır */
+                    align-items: center; /* Dikey hizalama */
+                }
+            </style>
+            
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+                
+            
+                    <div class="col">
+                        <div class="card"id="washington">
+            
+                            <div class="card-body">
+                                <div class="flex-container">
+                                    <div class="col-9">
+                                        <h5 class="card-title">Washington </h5>
+                                        <p class="card-text">USA</p>
+                                    </div>
+                                    <div class="col-3" style="align-items: center;">
+                                       
+                                        <img src="flags/usa-flag.png" id="img" ,
+                                         style="object-fit: cover;height:55px;width:55px" alt="...">
+               
+                                          
+                                         
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+
+
+                        
+                    </div> 
+
+
+                    <div class="col">
+                        <div class="card"id="tokyo">
+            
+            
+                            <div class="card-body">
+                                <div class="flex-container">
+                                    <div class="col-9">
+                                        <h5 class="card-title">Tokyo</h5>
+                                        <p class="card-text">Japan</p>
+                                    </div>
+                                    <div class="col-3" style="align-items: center;">
+                                       
+                                        <img src="flags/japan-flag.png" id="img" ,
+                                         style="object-fit: cover;height:55px;width:55px" alt="...">
+               
+                                        
+                                    </div>
+                                </div>
+                               
+                            </div>
+            
+                        </div>
+
+
+                        
+                    </div>
+                
+
+
+                    <div class="col">
+                        <div class="card" id="oslo">
+            
+                            
+                            <div class="card-body">
+                                <div class="flex-container">
+                                    <div class="col-9">
+                                        <h5 class="card-title">Oslo</h5>
+                                        <p class="card-text">Norway</p>
+                                    </div>
+                                    <div class="col-3" style="align-items: center;">
+                                       
+                                        <img src="flags/norway-flag.png" id="img" ,
+                                         style="object-fit: cover;height:55px;width:55px" alt="...">
+               
+                                        
+                                    </div>
+                                </div>
+
+                                
+
+
+                            </div>
+            
+                        </div>
+
+
+                    </div>
+                
+
+
+                
+
+                    <div class="col">
+                        <div class="card" id="rio">
+            
+                            
+                            <div class="card-body">
+                                <div class="flex-container">
+                                    <div class="col-9">
+                                        <h5 class="card-title">Rio</h5>
+                                        <p class="card-text">Brazil</p>
+                                    </div>
+                                    <div class="col-3" style="align-items: center;">
+                                       
+                                        <img src="flags/brazil.png" id="img" ,
+                                         style="object-fit: cover;height:55px;width:55px" alt="...">
+               
+                                        
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                        <div class="card"id="giresun">
+            
+                            
+                            <div class="card-body">
+                                <div class="flex-container">
+                                    <div class="col-9">
+                                        <h5 class="card-title">Giresun</h5>
+                                        <p class="card-text">Türkiye</p>
+                                    </div>
+                                    <div class="col-3" style="align-items: center;">
+                                       
+                                        <img src="flags/turkey.png" id="img" ,
+                                         style="object-fit: cover;height:55px;width:55px" alt="...">
+               
+                                        
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div> 
+                    </div>
+                    
+
+                    <div class="col">
+                        <div class="card"id="berlin">
+            
+                            
+                            <div class="card-body">
+                                <div class="flex-container">
+                                    <div class="col-9">
+                                        <h5 class="card-title">Berlin</h5>
+                                        <p class="card-text">Germany</p>
+                                    </div>
+                                    <div class="col-3" style="align-items: center;">
+                                       
+                                        <img src="flags/germany.png" id="img" ,
+                                         style="object-fit: cover;height:55px;width:55px" alt="...">
+               
+                                        
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div> 
+                    </div>
+
+                    
+                    <div class="col">
+                        <div class="card" id="jerusalem">
+                          <div class="card-body">
+                            <div class="flex-container">
+                              <div class="col-9">
+                                <h5 class="card-title">Kudüs</h5>
+                                <p class="card-text">İsrail</p>
+                              </div>
+                              <div class="col-3" style="align-items: center;">
+                                <img src="flags/israel.png" id="img" style="object-fit: cover;height:55px;width:55px" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    
+                      <div class="col">
+                        <div class="card" id="negril">
+                          <div class="card-body">
+                            <div class="flex-container">
+                              <div class="col-9">
+                                <h5 class="card-title">Negril</h5>
+                                <p class="card-text">Jamaika</p>
+                              </div>
+                              <div class="col-3" style="align-items: center;">
+                                <img src="flags/jamaica.png" id="img" style="object-fit: cover;height:55px;width:55px" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+
+
+
+                      <div class="col">
+                        <div class="card" id="lasvegas">
+                          <div class="card-body">
+                            <div class="flex-container">
+                              <div class="col-9">
+                                <h5 class="card-title">Las Vegas</h5>
+                                <p class="card-text">USA</p>
+                              </div>
+                              <div class="col-3" style="align-items: center;">
+                                <img src="flags/usa-flag.png" id="img" style="object-fit: cover;height:55px;width:55px" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <div class="col">
+                        <div class="card" id="seoul">
+                          <div class="card-body">
+                            <div class="flex-container">
+                              <div class="col-9">
+                                <h5 class="card-title">Seul</h5>
+                                <p class="card-text">Güney Kore</p>
+                              </div>
+                              <div class="col-3" style="align-items: center;">
+                                <img src="flags/south-korea.png" id="img" style="object-fit: cover;height:55px;width:55px" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                                            
+
+
+                      <div class="col">
+                        <div class="card" id="sydney">
+                          <div class="card-body">
+                            <div class="flex-container">
+                              <div class="col-9">
+                                <h5 class="card-title">Sydney</h5>
+                                <p class="card-text">Australia</p>
+                              </div>
+                              <div class="col-3" style="align-items: center;">
+                                <img src="flags/australia.png" id="img" style="object-fit: cover;height:55px;width:55px" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                               
+                      
+                      <div class="col">
+                        <div class="card" id="mekke">
+                          <div class="card-body">
+                            <div class="flex-container">
+                              <div class="col-9">
+                                <h5 class="card-title">Mekke</h5>
+                                <p class="card-text">Saudi Arabia</p>
+                              </div>
+                              <div class="col-3" style="align-items: center;">
+                                <img src="flags/saudi-arabia.png" id="img" style="object-fit: cover;height:55px;width:55px" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card" id="dubai">
+                          <div class="card-body">
+                            <div class="flex-container">
+                              <div class="col-9">
+                                <h5 class="card-title">Dubai</h5>
+                                <p class="card-text">United Arab Emirates</p>
+                              </div>
+                              <div class="col-3" style="align-items: center;">
+                                <img src="flags/united-arab-emirates.png" id="img" style="object-fit: cover;height:55px;width:55px" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      
+                
+            </div>
+             
+            <!-- asdasdasdasdasdasadadfadlföadfödaifö -->
+            
+
+
+
+
+
+
+        </main>
+    </div>
+
+
+    <script>
+      const electron = require("electron");
+      const {ipcRenderer}=electron;
+      let washington=document.querySelector("#washington");
+      washington.addEventListener("click", ()=>{
+          ipcRenderer.send("key:washington_key"); // burda newWindow adındaki yeni sayfaya işaret edildi
+      })
+      let tokyo=document.querySelector("#tokyo");
+      tokyo.addEventListener("click", ()=>{
+          ipcRenderer.send("key:tokyo_key"); // burda newWindow adındaki yeni sayfaya işaret edildi
+      })
+      let dublin=document.querySelector("#oslo");
+      oslo.addEventListener("click", ()=>{
+          ipcRenderer.send("key:oslo_key"); // burda newWindow adındaki yeni sayfaya işaret edildi
+      })
+      let rio=document.querySelector("#rio");
+      rio.addEventListener("click", ()=>{
+          ipcRenderer.send("key:rio_key"); // burda newWindow adındaki yeni sayfaya işaret edildi
+      })
+      let giresun=document.querySelector("#giresun");
+      giresun.addEventListener("click", ()=>{
+          ipcRenderer.send("key:giresun_key"); // burda newWindow adındaki yeni sayfaya işaret edildi
+      })
+      let berlin=document.querySelector("#berlin");
+      berlin.addEventListener("click", ()=>{
+          ipcRenderer.send("key:berlin_key"); // burda newWindow adındaki yeni sayfaya işaret edildi
+      })
+      let jerusalem = document.querySelector("#jerusalem");
+      jerusalem.addEventListener("click", () => {
+        ipcRenderer.send("key:jerusalem_key"); // "jerusalem.html" sayfasını açar
+      });
+      let negril = document.querySelector("#negril");
+      negril.addEventListener("click", () => {
+        ipcRenderer.send("key:negril_key"); // "negril.html" sayfasını açar
+      });
+      let lasvegas = document.querySelector("#lasvegas");
+      lasvegas.addEventListener("click", () => {
+        ipcRenderer.send("key:lasvegas_key"); // "lasvegas.html" sayfasını açar
+      });
+      let seoul = document.querySelector("#seoul");
+      seoul.addEventListener("click", () => {
+        ipcRenderer.send("key:seoul_key"); // "seoul.html" sayfasını açar
+      });
+
+      let sydney = document.querySelector("#sydney");
+        sydney.addEventListener("click", () => {
+            ipcRenderer.send("key:sydney_key"); // "sydney.html" sayfasını açar
+          });
+
+      let mekke = document.querySelector("#mekke");
+        mekke.addEventListener("click", () => {
+          ipcRenderer.send("key:mekke_key"); // "mekke.html" sayfasını açar
+        });
+
+      let dubai = document.querySelector("#dubai");
+        dubai.addEventListener("click", () => {
+          ipcRenderer.send("key:dubai_key"); // "dubai.html" sayfasını açar
+        });
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body> 
+
+</html>
